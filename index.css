@@ -1,0 +1,366 @@
+.rectangle-frame {
+  height: 1020px;
+  width: 109px;
+  position: relative;
+  background-color: var(--color-lightsteelblue);
+}
+.images-1-icon {
+  width: 73px;
+  height: 58px;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 322px;
+  border-radius: var(--br-3xs);
+  object-fit: cover;
+}
+.email {
+  width: 85px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.create-account-frame-child {
+  height: 17px;
+  width: 293px;
+  position: relative;
+}
+.create-account-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+}
+.password {
+  width: 85px;
+  position: relative;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.create-account-frame-item {
+  height: 17px;
+  width: 293px;
+  position: relative;
+}
+.create-account-frame1,
+.email-password-button {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.create-account-frame1 {
+  flex-direction: row;
+  justify-content: center;
+  row-gap: 20px;
+}
+.email-password-button {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 57px;
+}
+.buttonbase-primary-hower {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(1.906);
+}
+.wrapper-buttonbase-primary {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.value {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 6px;
+  left: 16px;
+  font-size: var(--button-text-size);
+  letter-spacing: 0.75px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: var(--button-text);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  height: 15px;
+  z-index: 1;
+}
+.primary-small-hower {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 32px;
+  width: 95px;
+  position: relative;
+}
+.frame-primary-small-hover {
+  width: 136px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.frame-button-base,
+.frame-password-input {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frame-button-base {
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap-55xl);
+}
+.frame-password-input {
+  width: 384px;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-7xs) 130px 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-smi);
+}
+.dont-have-an {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.don-have-an-account-text {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-18xl);
+}
+.create-lecturer-account {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.buttonbase-primary-hower1 {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(1.906);
+}
+.wrapper-buttonbase-primary1 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.value1 {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 6px;
+  left: 16px;
+  letter-spacing: 0.75px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  height: 15px;
+  z-index: 1;
+}
+.primary-small-hower1 {
+  width: 95px;
+  height: 32px;
+  position: relative;
+  font-size: var(--button-text-size);
+  color: var(--white);
+  font-family: var(--button-text);
+}
+.create-account-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+}
+.create-lecturer-account1 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.buttonbase-primary-hower2 {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 4px;
+  transform: scale(1.906);
+}
+.wrapper-buttonbase-primary2 {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  left: 0;
+  max-width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.value2 {
+  position: absolute;
+  width: calc(100% - 32px);
+  top: 6px;
+  left: 16px;
+  letter-spacing: 0.75px;
+  line-height: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: inline-block;
+  height: 15px;
+  z-index: 1;
+}
+.primary-small-hower2 {
+  width: 95px;
+  height: 32px;
+  position: relative;
+  font-size: var(--button-text-size);
+  color: var(--white);
+  font-family: var(--button-text);
+}
+.create-account-button1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-24xl);
+}
+.frame-create-lecturer-account {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.f-r-a-m-e,
+.frame-email-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.frame-email-input {
+  align-self: stretch;
+  align-items: center;
+  padding: 192px 0 0;
+  position: relative;
+  gap: 95px;
+}
+.f-r-a-m-e {
+  width: 789px;
+  align-items: flex-start;
+  padding: 49px var(--padding-18xl) 0 0;
+}
+.rectangle-frame1 {
+  height: 1020px;
+  width: 109px;
+  position: relative;
+  background-color: var(--color-lightsteelblue);
+}
+.desktop-1 {
+  width: 100%;
+  position: relative;
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0 0 var(--padding-9xs);
+  box-sizing: border-box;
+  letter-spacing: normal;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-black);
+  font-family: var(--body-1);
+}
+@media screen and (max-width: 1050px) {
+  .desktop-1 {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .frame-email-input {
+    gap: 47px;
+    padding-top: 125px;
+    box-sizing: border-box;
+  }
+  .f-r-a-m-e {
+    padding-top: 32px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 725px) {
+  .frame-create-lecturer-account {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 450px) {
+  .create-account-frame,
+  .create-account-frame1 {
+    flex-wrap: wrap;
+  }
+  .email-password-button {
+    gap: 28px;
+  }
+  .frame-button-base {
+    gap: var(--gap-18xl);
+  }
+  .create-lecturer-account,
+  .create-lecturer-account1,
+  .dont-have-an {
+    font-size: var(--body-1-size);
+  }
+  .frame-email-input {
+    gap: var(--gap-5xl);
+    padding-top: 81px;
+    box-sizing: border-box;
+  }
+  .f-r-a-m-e {
+    padding-top: var(--padding-2xl);
+    box-sizing: border-box;
+  }
+}
