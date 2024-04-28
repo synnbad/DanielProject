@@ -1,112 +1,97 @@
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="initial-scale=1, width=device-width" />
 
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./index.css" />
     <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap"
     />
     <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Open Sans:wght@600&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Open Sans:wght@600&display=swap"
     />
     <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
     />
     <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
     />
-  </head>
-  <body>
-    <div class="desktop-1">
-      <div class="rectangle-frame"></div>
-      <div class="f-r-a-m-e">
+</head>
+<body>
+<div class="desktop-1">
+    <div class="rectangle-frame"></div>
+    <div class="f-r-a-m-e">
         <div class="frame-email-input">
-          <img
-            class="images-1-icon"
-            loading="lazy"
-            alt=""
-            src="./public/images-1@2x.png"
-          />
+            <img
+                    class="images-1-icon"
+                    loading="lazy"
+                    alt=""
+                    src="./public/images-1@2x.png"
+            />
 
-          <div class="frame-password-input">
-            <div class="frame-button-base">
-              <div class="email-password-button">
-                <div class="create-account-frame">
-                  <div class="email">Email</div>
-                  <img
-                    class="create-account-frame-child"
-                    loading="lazy"
-                    alt=""
-                    src="./public/rectangle-26.svg"
-                  />
-                </div>
-                <div class="create-account-frame1">
-                  <div class="password">Password</div>
-                  <img
-                    class="create-account-frame-item"
-                    loading="lazy"
-                    alt=""
-                    src="./public/rectangle-26.svg"
-                  />
-                </div>
+            <div class="frame-password-input">
+              <!-- Email input -->
+              <input type="email" id="email" name="email" placeholder="Email" required>
+              
+              <!-- Password input -->
+              <input type="password" id="password" name="password" placeholder="Password" required>
+              
+              <div class="frame-button-base">
+                  <form action="your_login_endpoint" method="POST">
+                      <div class="email-password-button">
+                          <button type="submit" class="primary-small-hower">LOGIN</button>
+                      </div>
+                  </form>
               </div>
-              <div class="frame-primary-small-hover">
-                <button class="primary-small-hower">
-                  <div class="wrapper-buttonbase-primary">
-                    <img
-                      class="buttonbase-primary-hower"
-                      alt=""
-                      src="./public/buttonbase--primary--hower@2x.png"
-                    />
-                  </div>
-                  <div class="value">LOGIN</div>
-                </button>
-              </div>
-            </div>
           </div>
-          <div class="don-have-an-account-text">
-            <h3 class="dont-have-an">Don’t have an account?</h3>
-          </div>
-          <div class="frame-create-lecturer-account">
-            <div class="create-account-button">
-              <h3 class="create-lecturer-account">Create Lecturer Account</h3>
-              <div class="primary-small-hower1">
-                <div class="wrapper-buttonbase-primary1">
-                  <img
-                    class="buttonbase-primary-hower1"
-                    loading="lazy"
-                    alt=""
-                    src="./public/buttonbase--primary--hower-1@2x.png"
-                  />
-                </div>
-                <div class="value1">CREATe</div>
-              </div>
+            <div class="don-have-an-account-text">
+                <h3 class="dont-have-an"><a href="register.html">Don’t have an account?</a></h3>
             </div>
-            <div class="create-account-button1">
-              <h3 class="create-lecturer-account1">Create Lecturer Account</h3>
-              <div class="primary-small-hower2">
-                <div class="wrapper-buttonbase-primary2">
-                  <img
-                    class="buttonbase-primary-hower2"
-                    loading="lazy"
-                    alt=""
-                    src="./public/buttonbase--primary--hower-1@2x.png"
-                  />
+            <div class="frame-create-lecturer-account">
+                <div class="create-account-button">
+                    <h3 class="create-Lecturer-account"><a href="desktop-2.html">Create Lecturer Account</a></h3>
+                    <div class="primary-small-hower1">
+                        <div class="wrapper-buttonbase-primary1">
+                            <img
+                                    class="buttonbase-primary-hower1"
+                                    loading="lazy"
+                                    alt=""
+
+                            />
+                        </div>
+                        <div class="value1">CREATe</div>
+                    </div>
                 </div>
-                <div class="value2">CREATe</div>
-              </div>
+                <div class="create-account-button1">
+                    <h3 class="create-Student-account"><a href="desktop-3.html">Create Student Account</a></h3>
+                    <div class="primary-small-hower2">
+                        <div class="wrapper-buttonbase-primary2">
+                            <img
+                                    class="buttonbase-primary-hower2"
+                                    loading="lazy"
+                                    alt=""
+
+                            />
+                        </div>
+                        <div class="value2">CREATe</div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
-      <div class="rectangle-frame1"></div>
     </div>
-  </body>
+    <div class="rectangle-frame1"></div>
+</div>
+
+<footer>
+    <p>Author: Daniel</p>
+    <p><a href="mailto:hege@example.com">hege@example.com</a></p>
+</footer>
+
+</body>
 </html>
